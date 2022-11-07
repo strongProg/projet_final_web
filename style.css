@@ -1,0 +1,70 @@
+ 
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserrat' sans-serif ;
+    color:#738f9c;
+}
+
+
+form {
+   margin-top: 10px;
+   background-color: rgb(138, 185, 222);
+   padding: 40px 40px;
+   border-radius: 10px;
+   min-width: 200px;
+} 
+
+form input[type = "submit"] {
+   padding: 15px 25px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   font:bold 15px arial sans-serif;
+   color: rgb(47, 100, 147);
+   background-color: rgb(147, 147, 203);
+   outline: none;
+   cursor: pointer;
+}   
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid #9591df;
+}
+
+
+nav onglets{
+        margin-top: none;
+        margin-left: 300px;
+}
+
+
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('image/billet-avion.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 40px; 
+}
+
+header h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 50px;
+}
+
